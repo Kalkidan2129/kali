@@ -1,0 +1,111 @@
+{
+  "title": "Global Super Store",
+  "description": "Global Super Store is a data set which has around 50000 values. It’s a customer centric data set , which has the data of all the orders that have been placed through different vendors and markets , starting from the year 2011 till 2015.",
+  "tags": [
+    "Reporting",
+    "PowerBI",
+    "Sales"
+  ],
+  "imageUrl": "https://app.colaberry.com/uploads/ProjectRequest/32749/GSS.PNG",
+  "stepByStepLink": "#/network/481/projectsteps",
+  "deploymentLink": "https://app.colaberry.com/app/network/network/481/deploymentsteps",
+  "stepByStepContent": "Global Super Store\nGlobal Super Store is a data set which has around 50000 values. It’s a customer centric data set , which has the data of all the orders that have been placed through different vendors and markets , starting from the year 2011 till 2015.\nStep Name:FINAL DASHBOARD LOOK\nDetailed Instructions:\nCongratulations! Your final dashboard look like this!\n \nInsight: \n\nPower BI Tutorial From Beginner to Pro\n\nDid you complete the Project?",
+  "allStepDetails": [
+    {
+      "stepNumber": 1,
+      "content": "Global Super Store\nGlobal Super Store is a data set which has around 50000 values. It’s a customer centric data set , which has the data of all the orders that have been placed through different vendors and markets , starting from the year 2011 till 2015.\nStep Name:FINAL DASHBOARD\nDetailed Instructions:\n\nInsight: \n\nhow tocreate a simple dashboard\n\nhttps://www.youtube.com/watch?v=3nvjjfE9BqQ"
+    },
+    {
+      "stepNumber": 2,
+      "content": "Global Super Store\nGlobal Super Store is a data set which has around 50000 values. It’s a customer centric data set , which has the data of all the orders that have been placed through different vendors and markets , starting from the year 2011 till 2015.\nStep Name:LOADING DATASET\nDetailed Instructions:\n\nClick the the above to download the zip file it has the excel file , Colaberry logo and map diverging color  \n\nSTEP 1 - Open Power BI Desktop and Click on Get Data\n\nSTEP 2- Select Excel\n\nSTEP 3– Select file (Global Super Store)\n\nSTEP 5- Select Sales  \n\nSTEP 6- Click Load\n\nSTEP 7- Change the page name to Global super store \n\nFollow the GIF below to apply the above steps \n\nInsight: \n\nhttps://www.youtube.com/watch?v=9sfCDCpWTfc&t=53s"
+    },
+    {
+      "stepNumber": 3,
+      "content": "Global Super Store\nGlobal Super Store is a data set which has around 50000 values. It’s a customer centric data set , which has the data of all the orders that have been placed through different vendors and markets , starting from the year 2011 till 2015.\nStep Name:CLEANING DATASET\nDetailed Instructions:\n\nRemoving unwanted columns and changing the data type for a couple of columns.\n\nSTEP 1- Click Transfer data\n\nSTEP 2- Right click on the column name and change the data type \n\nSTEP 3- By clicking control select unwanted column\n\nSTEP 4- Click Removing Colum\n\nSTEP 5- Close and apply \n\nFollow the GIF below to apply the above steps \n\nInsight: \n\nhow to change datatype"
+    },
+    {
+      "stepNumber": 4,
+      "content": "Global Super Store\nGlobal Super Store is a data set which has around 50000 values. It’s a customer centric data set , which has the data of all the orders that have been placed through different vendors and markets , starting from the year 2011 till 2015.\nStep Name:CREATING DATE TABLE AND CALCULATED COLUMN\nDetailed Instructions:\n\nSTEP 1- Go to Data view then Click create table\n\nSTEP 2- Copy and paste this DAX(Date Table = CALENDARAUTO() )then enter\n\nSTEP 3- Select the Date table change the date format\n\nSTEP 4- go to model view and create one to many relationship\n\nFollow the GIF below to apply the above steps  \n\nNext you can copy paste the DAX for formula I listed below or you can download it as a word document by clicking the above icon\n\n1.    Total Sale = SUM(sales[Total Revnue ])\n\n2.    Total Profit = SUM(sales [Net Profit ])\n\n3.    Gross Profit Margin % = DIVIDE([Total profit],[Total Sales],0)\n\n4.    LY Profit Margin = CALCULATE([Gross Profit Margin %],SAMEPERIODLASTYEAR('Date Table'[Date]))\n\n5.     YOY% = [Gross Profit Margin %]-[LY Profit Margin]\n\n6.    YOY% kpi = SWITCH(TRUE(), [YOY%]<0,UNICHAR(9660),UNICHAR(9650))&ROUND([YOY%],4)*100 & \"%\"\n\n7.    KPI Arrow = IF([YOY%]>=0, \"green\",\"Red\")\n\nSTEP 1 - Click new measure and copy paste the first DAX formula\n\nSTEP 2 – make sure your new measure table is under sales table\n\nyou repeat this steps to create Measures for the rest of DAXs I listed above\n\nFollow the GIF below to apply the above steps \n\nAfter you create Gross profit margin and YOY% make sure you change display value in percentage  \n\nInsight: \n\nbasic DAX Formula"
+    },
+    {
+      "stepNumber": 5,
+      "content": "Global Super Store\nGlobal Super Store is a data set which has around 50000 values. It’s a customer centric data set , which has the data of all the orders that have been placed through different vendors and markets , starting from the year 2011 till 2015.\nStep Name:CREATING TITLE AND LOGO\nDetailed Instructions:\n\nBefore we start creating title we need to fix the page formatting by following step below\n\nSTEP 1- Click on the page, go to formatting, change the background to #66666 and 66% transparency\n\nSTEP 2 -Page size, click type dropdown and select custom, make the width =1500 pixel and height= 800 pixel \n\nCreating title\n\nSTEP 3 - Click on the home tab, select the text box.\n\nSTEP 4 – General X position = 10, y position = 0, width = 920, height = 110 \n\nSTEP 5- Turn on the background, make the color custom #bda6c6  and 0%trnasparnsy\n\nSTEP 6- Click on inside text box and type GLOBAL SUPER STORE. Text size=44, Font=Arial Black, Font color=Custom 2e1039 and make it Bold\n\nFollow the GIF below to apply the above steps \n\nCreate Colaberry Logo\nYou can find the logo in the file you download in the first steps \n\nSTEP 7- Click on the Insert tab, image, and browse for the image  in the folder you saved it in first step.\n\nSTEP 8 Go to General X position = 772, y position = 0, width = 160, height = 110\nFollow the GIF below to apply the above steps \n\nInsight: \n\nshape , text and image in Power bi"
+    },
+    {
+      "stepNumber": 6,
+      "content": "Global Super Store\nGlobal Super Store is a data set which has around 50000 values. It’s a customer centric data set , which has the data of all the orders that have been placed through different vendors and markets , starting from the year 2011 till 2015.\nStep Name:CREATING SLICER AND KIP CARD\nDetailed Instructions:\nCreating Year Slicer \nSTEP 1- At the visualization tab select slicer visual. Select date table then select year from date hierarchy\nSTEP 2 - Change to between by clicking slicer ellipsis\n\nSTEP 3 -Click on numeric input, Text size=10, Font=Arial Black, Font color=Custom 2e1039\n\nSTEP 4-Turn on the background, make the color custom #bda6c6 and 0%trnasparnsy\n\nSTEP 5- Turn Slider header and the visual header OFF. Turn on the shadow \n\nSTEP 6- Go to General X position = 912, y position = 0, width = 192, height = 110\n\nFollow the GIF below to apply the above steps \n\nCreating and formatting GPM% KPI\n\nSTEP7- Copy and paste the slicer visual, Remove the year field from the slicer, change the slicer visual to card visual then drag and drop the gross profit margin field from the sales table\n\nSTEP 8- Click Data Label make the color custom #bda6c6, Text Size= 33, Font= DIN and for value decimal place =1\nSTEP 9- Set Category Off, Word Wrap ON, Turn Title On, type GPM% for the title, make the color = custom #bda6c6, Alignment Center, Text Size=22, Font =Arial Black\nFollow the GIF below to apply the above steps \n\nCreating and formatting YOY% KPI\n\nSTEP 10- Copy and paste the KPI visual, Remove the GPM% field then drag and drop the YOY% kpi field from the sales table\n\nSTEP 11- Click Data Label then click data label function format by filed value, based on KPI Arrow field\nSTEP 12- Click title change the title to YOY%\n\nFollow the GIF below to apply the above steps \n\nInsight: \n\npower bi slicer"
+    },
+    {
+      "stepNumber": 7,
+      "content": "Global Super Store\nGlobal Super Store is a data set which has around 50000 values. It’s a customer centric data set , which has the data of all the orders that have been placed through different vendors and markets , starting from the year 2011 till 2015.\nStep Name:CREATING SHAPE MAP\nDetailed Instructions:\n\nClick the Icon  above to download the zip file it has the jason map file. we use it to crate a world shape map  \n\nSTEP 1 -Click on the shape map, select Country in location and Gross profit margin for color saturation, and YOY% for Tooltips.\nSTEP 2- In format go to general, X position = 0 Y position = 114, Width = 820, Height = 335.\nSTEP 3 -Data Colors = Set Diverging ON, minimum - color = custom #0D6ABF, maximum - color = custom #C7B8E7 \nSTEP 4- Click formatting click shape and click add map download the map from your computer. For the projection change it to Equirecatngular \n\nFollow the GIF below to apply the above steps \n\nTo Finish building the map follow the next steps below\n\nSTEP 5- Click Default color off, click zoom turn on auto zoom,\nSTEP 6- Title GPM% by Country font color = #2e1039, background color = #bda6c6 alignment = center, text size = 15\n\nSTEP 7- Click background ON, color = white and 0% transparency\n\nFollow the GIF below to apply the above steps \n\nCreate legend. Download the image provided in the zip file in the beginning steps,\nSTEP 8- Go to insert and select insert image.\nSTEP 9- go to General, x position = 0, y position = 409, width = 215, height = 39\nSTEP 10- Select text box, text “Low   High”, font = Segoe UI, text size =10\nSTEP 11 go to General, x position = 0, y position = 377, width = 206, height = 52\nFollow the GIF below to apply the above steps \n\nInsight: \n\nhow to create shape map in power bi"
+    },
+    {
+      "stepNumber": 8,
+      "content": "Global Super Store\nGlobal Super Store is a data set which has around 50000 values. It’s a customer centric data set , which has the data of all the orders that have been placed through different vendors and markets , starting from the year 2011 till 2015.\nStep Name:CREATING LINE AND CLUSTRED CHART 1\nDetailed Instructions:\nCreate line and clustered column chart for GPM% and YOY% by month \nSTEP 1 – Copy and paste the previous visual. Click on it and Go to visualization, Click on Line and Clustered Column Chart\nSTEP 2- Remove all the field, Drag and drop Gross Profit Margin % in the Column values, YOY % in line values and Month in the share axis from the date hierarchy.\nSTEP 3 - Go to formatting and change the title to GPM% by Month \n\nFollow the GIF below to apply the above steps \n\nSTEP 4- Go to X Axis. Font color = black, text size 9, font family = Arial black and turn the title off\nSTEP 5- Go to y Axis. Font color = black, text size 9, font family = Arial black and turn the title off, turn on show secondary line and make the same font with the first line\nFollow the GIF below to apply the above steps\n\nSTEP 6 – Go to Legend and make the color= black, text size=12, font family= Din\nSTEP 7- Turn on data label, change the color = black, decimal place =1, show background off, turn on customize serious and change it to YOY%. Color = #8d6fd1, decimal place=1, text size= 9, font family = Arial black, Show background off\nFollow the GIF below to apply the above steps\nSTEP 8– Click Data on data color YOY% = color #2e1039, for the default =color #71afe2\nSTEP 9- Click on shape and turn on the shade area\nSTEP 10 – Go to y Axis and change the secondary line to color=# #8d6fd1\nFollow the GIF below to apply the above steps\n\nInsight: \n\nHow to create line and clustered column chart"
+    },
+    {
+      "stepNumber": 9,
+      "content": "Global Super Store\nGlobal Super Store is a data set which has around 50000 values. It’s a customer centric data set , which has the data of all the orders that have been placed through different vendors and markets , starting from the year 2011 till 2015.\nStep Name:CREATING LINE AND CLUSTRED CHART 2&3\nDetailed Instructions:\nCreate line and clustered column chart for GPM% and YOY% by Segment  \nSTPE 1- Copy and paste the previous line and clustered column chart.\nSTEP 2- Go to General, x position = 832, y position = 468, width = 668, height = 339\nSTEP 3 - Remove month from the shared axis and drag and drop Segment from sales table \nSTEP 4- Go to format, click title change month to segment \nFollow the GIF below to apply the above steps\n\nCreate line and clustered column chart for GPM% and YOY% by Category and subcategory \nSTPE 1- Copy and paste the previous line and clustered column chart.\nSTEP 2- Create hierarchy put subcategory under category so we can make drill through.\nSTEP 3 - Remove month from the shared axis and drag and drop category hierarchy from sales \nSTEP 4- Go to format, click title change month to segment. \nFollow the GIF below to apply the above steps\n\nFinal Step we need to add YOY% tooltip for all 3 line and clustered column chart \nFollow the GIF below to apply the above steps\n\nInsight: \n\nEVERYTHING you wanted to know about Power BI tooltips"
+    },
+    {
+      "stepNumber": 10,
+      "content": "Global Super Store\nGlobal Super Store is a data set which has around 50000 values. It’s a customer centric data set , which has the data of all the orders that have been placed through different vendors and markets , starting from the year 2011 till 2015.\nStep Name:FINAL DASHBOARD LOOK\nDetailed Instructions:\nCongratulations! Your final dashboard look like this!\n \nInsight: \n\nPower BI Tutorial From Beginner to Pro\n\nDid you complete the Project?"
+    }
+  ],
+  "category": "",
+  "industry": "",
+  "tools": [],
+  "skills": [],
+  "portfolioSummary": "",
+  "keyInsights": [],
+  "businessImpact": [],
+  "portfolioContent": {
+    "title": "Global Super Store",
+    "category": "Business Intelligence",
+    "industry": "Retail",
+    "generationSource": "ai",
+    "portfolioSummary": "Developed an interactive Power BI dashboard analyzing global retail sales and profitability from 2011 to 2015.",
+    "summary": "This project involved creating a comprehensive Power BI dashboard using the Global Super Store dataset, which contains around 50,000 customer-centric sales records from multiple vendors and markets. The dashboard features data cleaning, calculated metrics, and visualizations such as shape maps and clustered charts to analyze sales performance and profit margins over time.",
+    "businessProblem": "Retail businesses need to analyze large volumes of sales data across vendors and markets to identify trends and profitability. Without effective visualization and analysis, decision-makers struggle to optimize sales strategies and improve profit margins.",
+    "objectives": [
+      "Load and clean a large retail sales dataset for analysis",
+      "Create calculated metrics to measure sales and profit performance",
+      "Develop interactive visualizations to track sales trends and geographic performance"
+    ],
+    "tools": [
+      "Power BI Desktop",
+      "Excel",
+      "DAX (Data Analysis Expressions)",
+      "Shape Map Visual",
+      "Clustered Column and Line Charts"
+    ],
+    "skills": [
+      "Data cleaning and transformation",
+      "Data modeling and relationship creation",
+      "DAX formula creation for KPIs",
+      "Dashboard design and visualization",
+      "Geospatial mapping",
+      "Time series analysis",
+      "Interactive slicers and filters"
+    ],
+    "workflow": [
+      "Import and load the Global Super Store Excel dataset into Power BI",
+      "Clean data by removing unwanted columns and correcting data types",
+      "Create a date table and define relationships for time-based analysis",
+      "Develop calculated columns and measures for sales and profit KPIs",
+      "Build and format interactive visualizations including maps, slicers, and charts"
+    ],
+    "keyInsights": [
+      "Gross Profit Margin % varies significantly by country and market",
+      "Year-over-year profit margin trends highlight growth and decline periods",
+      "Monthly sales and profit trends reveal seasonal patterns",
+      "Interactive slicers enable dynamic analysis across years and metrics"
+    ],
+    "businessImpact": [
+      "Enabled data-driven decision making through clear sales and profit insights",
+      "Improved ability to identify high-performing markets and vendors",
+      "Facilitated monitoring of profitability trends to optimize business strategies"
+    ],
+    "imageUrl": "https://app.colaberry.com/uploads/ProjectRequest/32749/GSS.PNG"
+  }
+}
