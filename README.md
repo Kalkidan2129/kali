@@ -11,7 +11,7 @@
 
 ## About
 
-I am a data analyst skilled in transforming raw sales data into actionable insights using tools like Power BI and machine learning techniques. My work focuses on creating dynamic dashboards and comprehensive reports that support business intelligence and informed decision-making, particularly within the retail sector. I am proficient in leveraging data visualization and analytical methods to uncover trends and optimize sales performance.
+I am a data analyst skilled in transforming raw sales data into actionable insights using tools like Power BI and Microsoft Office. My work focuses on leveraging data visualization, reporting, and basic machine learning techniques to support business intelligence and informed decision-making, particularly within the retail sector. I am confident in creating clear, impactful dashboards that help stakeholders understand trends and optimize performance.
 
 ---
 
